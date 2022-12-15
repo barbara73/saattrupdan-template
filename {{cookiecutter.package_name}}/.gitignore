@@ -104,3 +104,21 @@ data/
 
 # Models
 models/
+
+
+# Virtual environment
+/venv/
+
+
+# Folder with protected keys
+/res/
+
+__pycache__
+.pytest_cache
+__pytest_cache__
+
+# exclude data from source control by default
+/data/
+
+# Pylint
+.pylintrc
