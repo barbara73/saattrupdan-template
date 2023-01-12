@@ -49,44 +49,4 @@ $ make view-docs
 * [pre-commit plugins](https://pre-commit.com/): Automate code reviewing formatting
 * [pdoc](https://github.com/pdoc3/pdoc): Automatically create an API documentation for your project
 
-## Project structure
-```
-.
-├── .flake8
-├── .github
-│   └── workflows
-│       ├── ci.yaml
-│       └── docs.yaml
-├── .gitignore
-├── .pre-commit-config.yaml
-├── CHANGELOG.md
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-├── config
-│   ├── __init__.py
-│   ├── config.yaml
-│   ├── model
-│   │   └── model1.yaml
-│   └── process
-│       └── process1.yaml
-├── data
-│   ├── final
-│   ├── processed
-│   └── raw
-├── makefile
-├── models
-├── notebooks
-├── poetry.toml
-├── pyproject.toml
-├── src
-│   ├── scripts
-│   │   ├── fix_dot_env_file.py
-│   │   └── versioning.py
-│   └── {{ cookiecutter.package_name }}
-│       ├── __init__.py
-│       └── demo.py
-└── tests
-    └── __init__.py
 ```
